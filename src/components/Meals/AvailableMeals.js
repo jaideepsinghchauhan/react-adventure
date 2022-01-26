@@ -37,10 +37,7 @@ const AvailableMeals = () => {
       name={meal.name}
       description={meal.description}
       price={meal.price}
-    >
-      {" "}
-      {meal.name}
-    </MealItem>
+    />
   ));
   return (
     <section className={classes.meals}>
